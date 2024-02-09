@@ -1,0 +1,23 @@
+
+.cyanClair {
+    height: 200px;
+    background-color: #9eeaf9
+}
+
+.grayBlue {
+    height: 50px;
+    background-color: #d2e5f2d2
+}
+
+.delete-btn{
+    background-color: #e6283b;
+    margin-left:10px;
+  }
+
+.add-btn{
+    background-color: aquamarine;
+}
+
+.edit-btn{
+    background-color: #297fd5d2;
+}
