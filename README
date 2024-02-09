@@ -1,0 +1,77 @@
+# TALBI_lysa_V_Final
+
+Bonjour, 
+
+Pour commencer vous aurez besoin des logiciels suivants :
+
+- NodeJs
+- MongoDB et MongoDB Compass
+- Postman
+
+Il vous faut aussi un environement de devloppement (IDE) ex : Visual Studio Code.
+
+Créez un nouveau dossier pour coller tous les doccuments.
+
+Pour crée un document package.json vous pouver utiliser la commande " npm init ", puis repondre aux questions ou appuyer sur entrer.
+
+Installez express avec la commande " npm install express ".
+
+Installez nodeJs avec la commande " npm install nodemon "  ( vous aurez un fichier à la racine appeler " node_modules " qui n'est pas présent dans ce dépot).
+
+Vous trouverez dans les diferentes branches les documents utiles, l'architechture devrais êtres comme ceci :
+
+Nom du projet "TALBI_Lysa_V_Final"
+
+- backend
+   - configuration
+      - fichier ' db.js '
+   - controllers
+     - fichier ' post.controllers.js '
+   - models
+     - fichier ' post.model.js '
+   - routes
+     - fichier ' post.routes.js '
+  
+    et le fichier ' server.js '
+  
+- frontend
+    - CSS
+       - fichier ' style.css '
+       - fichier ' bootstrap.min.css
+    - fichier ' index.html '
+    - fichier ' script.js '
+
+
+- node_modules
+- fichier ' .env '
+- fichier ' .gitigniore '
+- fichier ' package-lock.json '
+- fichier ' package.json
+
+Le fichier bootstrap.min.css est à télecharger ou vous pouvez mettre le lien bootstrap.
+
+Une fois les programmes installés, entrer dans le terminal " npm run server " si tous est bon vous aurez le message qui suis : 
+" Mongo connecté "
+" Server run ok au port : 5000 ".
+
+Pour arreter le server " ctrl + c " puis " o " pour confirmer. 
+
+Grâce à l'application Postman vous pourez envoyer des données à la base de donées.
+
+Avec le lien suivant : " http://localhost:5000/post ".
+
+Selectionner avec le panneau déroulant la méthode que vous souhaitez.
+
+Pour les requètes post et get selectionnez l'onglet : ' Body ' et ' x-www-form-urlencoder ', puis dans la colonne ' Key ' il faudra compléter comme cela :
+- firstName
+- lastName
+- dateOfBorn
+- email
+
+  dans la colone ' Value ' vous pouvez mettre les informations que vous voulez, le format pour la date de naissance est celui-ci ' aaaa-mm-jj '.
+
+ Voila pour le coté backend; au niveau du frontend il suffit de copier le lien index.html et de le coller dans le navigateur vous pourez alors compléter le formulaire. Comme vous pouvez le constater le frontend n'est pas lier à la base de donnée, je n'ai encore corriger cela. Le backend quant a lui est bien rellier à la base MongoDB. Pour effectuer une verrification de l'enregistrement sur la base de données vous pouvez utiliser l'identifiant et le mot de passe dans le document ' .env '.
+
+ Cordialement L.T
+
+
